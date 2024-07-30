@@ -1,0 +1,197 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(./img/Norse-Bold.otf);
+    font-weight: bold;
+    font-weight: 14px;
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+:root {
+  --width : width: 100vw;
+  --height : height: 100vh;
+}
+
+body{
+    var(--width);
+    var(--height);
+    display: flex;
+    flex-direction: row;
+}
+
+input{
+    font-size: 14px;
+    border-radius: 3px;
+    border: 0.5px #E5E7EB solid;
+    padding: 10px;
+}
+
+input:valid {
+    outline: none;
+    background-color: rgba(144, 238, 144, 0.4);
+    border-color: lightgreen;
+}
+
+input:focus:invalid{
+    outline: none;
+    border-color: blue;
+}
+
+.pwd:focus:invalid{
+    border-color: red;
+}
+
+
+label{
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 450;
+    margin-bottom: 5px;
+}
+
+p, h1, input , label, button {
+    margin-left: 50px ;
+}
+
+.hero-text, .h2-hero-text{
+    font-size: 2em;
+    margin-top: 1rem;
+    margin-left: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 450;
+}
+
+.top-section,  .bottom-section{
+    display: flex;
+    flex-direction: column;
+    height: 37.5vh;
+    var(--width);
+}
+
+
+.left-input, .right-input{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    width: 25%;
+}
+
+.left-background-container{
+    position: relative;
+    height: 100vh;
+    width: 30vw;
+}
+
+.full-bg{
+    width: 100%;
+    height: 100%;
+}
+
+.right-section-container{
+    width: 70%;
+}
+
+.odin-text{
+    color: white;
+    font-size: 90px;
+    font-family: 'Norse-Bold', sans-serif;
+}
+
+
+.bg-relative{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5em;
+    position: absolute;
+    top: 195px;
+    width: 100%;
+    height: 10em;
+    background-color: rgba(0, 0, 0, .5)
+}
+
+.transparent-bg{
+    height: 85%;
+}
+
+.middle-section{
+    display: flex;
+    flex-direction: column;
+    height: 32vh;
+    width: 100%;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, .2);
+}
+
+.form-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.h1-hero-text{
+    display: flex;
+    max-width: 50ch;
+    font-size: 2rem;
+    margin-top: 120px;
+    margin-left: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+
+
+.name-text{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    font-size: 24px;
+    
+}
+
+.create-btn{
+    padding: 20px 70px;
+    border-radius: 0.5em;
+    border: none;
+    font-family: 'Norse-Bold', sans-serif;
+    font-size: 24px;
+    color: white;
+    background-color: #596D48;
+    margin-top: 1.5em;
+}
+
+.reg-text{
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+
+.reg-text > a{
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
